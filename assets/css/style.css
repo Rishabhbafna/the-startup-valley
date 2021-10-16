@@ -5,16 +5,17 @@ body {
 
 a {
   text-decoration: none;
-  color: #EF5A5A;
+  color: #957DAD;
 }
 
 a:hover {
-  color: #EF5A5A;
+  color: #957DAD;
   text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto", sans-serif;
+  
 }
 
 /*--------------------------------------------------------------
@@ -409,7 +410,7 @@ section {
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #4b605c;
+  color: #957DAD;
 }
 .section-title p {
   margin-bottom: 0;
@@ -820,7 +821,7 @@ section {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #334240;
+  color: #80155B;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
@@ -968,7 +969,7 @@ section {
 .team .member {
   text-align: center;
   margin-bottom: 20px;
-  background: #343a40;
+  background: #80155B;
   position: relative;
   overflow: hidden;
 }

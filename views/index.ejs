@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Handshake - Home</title>
+  <title>Bridge - Home</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -25,6 +25,43 @@
 </head>
 
 <body>
+
+<!-- ======= Header ======= -->
+<header id="header" class="d-flex align-items-center">
+  <div class="container d-flex align-items-center justify-content-between">
+
+    <div class="logo">
+      
+      <a href="/"><img src="/img/logo.png" alt="" class="img-fluid" style="max-height: 72px;"></a>
+      
+      
+    </div>
+    
+    <nav id="navbar" class="navbar">
+      <ul>
+        <li><a class="nav-link scrollto active" href="/">Home</a></li>
+        <li><a class="nav-link scrollto" href="/startups">Startups</a></li>
+        <li><a class="nav-link scrollto" href="/investors">Investors</a></li>
+        <li><a class="nav-link scrollto" href="/featured">Featured</a></li>
+        <li><a class="nav-link scrollto" href="/schools_colleges">Schools/Colleges</a></li>
+        <li><a class="nav-link scrollto" href="/learn">Learn</a></li>
+        <% if(locals.user){ %>
+          <% if(locals.user.companyName){ %>
+            <li><a class="nav-link scrollto" href="/startup/sign-out"><span style="color: #957DAD;"> Sign Out  </span></a></li>
+            <% }else{ %>
+              <li><a class="nav-link scrollto" href="/investor/sign-out"><span style="color: #957DAD;"> Sign Out </span></a>
+              </li>
+            <% } %>
+        <% }else{ %>
+              <li><a class="nav-link scrollto" href="/login"><span style="color: #957DAD;">Sign In</span></a></li>
+            <% } %>
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav><!-- .navbar -->
+
+  </div>
+</header><!-- End Header -->
+
   <!-- ======= Hero Section ======= -->
   <section id="hero">
     <div class="hero-container">
@@ -36,11 +73,11 @@
 
           <!-- Slide 1 -->
           <div class="carousel-item active">
-            <div class="carousel-background"><img src="/img/slide/slide-1.png" alt=""></div>
+            <div class="carousel-background"><img src="/img/slide/slide-15.png" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown">Welcome to <span>handShake</span></h2>
-                <i><h4 class="animate__animated animate__fadeInUp">where ideas meet investments</h4></i>
+                <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Bridge</span></h2>
+                <i><h4 class="animate__animated animate__fadeInUp">connecting ideas to investments</h4></i>
                 <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Get Started</a>
               </div>
             </div>
@@ -60,11 +97,11 @@
 
           <!-- Slide 3 -->
           <div class="carousel-item">
-            <div class="carousel-background"><img src="/img/slide/slide-3.png" alt=""></div>
+            <div class="carousel-background"><img src="/img/slide/slide-1.png" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2 class="animate__animated animate__fadeInDown">Are you an Investor?</h2>
-                <p class="animate__animated animate__fadeInUp">Looking to invest in budding startups or diversifying your portfolio or randomly searching the startup space? You are at the right place. Welcome to handShake, partner! </p>
+                <p class="animate__animated animate__fadeInUp">Looking to invest in budding startups or diversifying your portfolio or randomly searching the startup space? You are at the right place. Welcome to Bridge, partner! </p>
                 <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Get Started</a>
               </div>
             </div>
@@ -84,41 +121,7 @@
     </div>
   </section><!-- End Hero -->
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="d-flex align-items-center">
-    <div class="container d-flex align-items-center justify-content-between">
-
-      <div class="logo">
-        
-        <a href="/"><img src="/img/logo.png" alt="" class="img-fluid" style="max-height: 280px;"></a>
-        
-        
-      </div>
-      <!-- <div><h1 class="text-light"><a href="index.html"><span>handShake<span style="color: #FFA952;">.</span>co</span></a></h1></div> -->
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="/">Home</a></li>
-          <li><a class="nav-link scrollto" href="/startups">Startups</a></li>
-          <li><a class="nav-link scrollto" href="/investors">Investors</a></li>
-          <li><a class="nav-link scrollto" href="/featured">Featured</a></li>
-          <li><a class="nav-link scrollto" href="/schools_colleges">Schools/Colleges</a></li>
-          <li><a class="nav-link scrollto" href="/learn">Learn</a></li>
-          <% if(locals.user){ %>
-            <% if(locals.user.companyName){ %>
-              <li><a class="nav-link scrollto" href="/startup/sign-out"><span style="color: #EF5A5A;"> Sign Out  </span></a></li>
-              <% }else{ %>
-                <li><a class="nav-link scrollto" href="/investor/sign-out"><span style="color: #EF5A5A;"> Sign Out </span></a>
-                </li>
-              <% } %>
-          <% }else{ %>
-                <li><a class="nav-link scrollto" href="/login"><span style="color: #EF5A5A;">Sign In</span></a></li>
-              <% } %>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
+  
 
   <main id="main">
 
@@ -129,7 +132,7 @@
         <div class="section-title">
           <!-- <div class="animate__animated animate__fadeInRight"> -->
           <h2 >About Us</h2>
-          <p>handShake for Startups is on a mission to support thriving, diverse, and inclusive startup communities around the world. We connect startups with the right people, products, and best practices to help your startup grow.
+          <p>Bridge for Startups is on a mission to support thriving, diverse, and inclusive startup communities around the world. We connect startups with the right people, products, and best practices to help your startup grow.
           </p>
         <!-- </div> -->
         </div>
@@ -175,7 +178,7 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-world"></i></div>
               <h4 class="title"><a href="">Networking</a></h4>
-              <p class="description">handShake helps you to connect with investors who could help you out with your startup.</p>
+              <p class="description">Bridge helps you to connect with investors who could help you out with your startup.</p>
             </div>
           </div>
 
@@ -430,7 +433,7 @@
 
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="member">
-              <img src="/img/team/team-1.jpg" class="img-fluid" alt="">
+              <img src="/img/team/team-1.png" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>Walter White</h4>
@@ -448,7 +451,7 @@
 
           <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.1s">
             <div class="member">
-              <img src="/img/team/team-2.jpg" class="img-fluid" alt="">
+              <img src="/img/team/team-3.png" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>Sarah Jhonson</h4>
@@ -466,7 +469,7 @@
 
           <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.2s">
             <div class="member">
-              <img src="/img/team/team-3.jpg" class="img-fluid" alt="">
+              <img src="/img/team/team-4.png" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>William Anderson</h4>
@@ -484,7 +487,7 @@
 
           <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.3s">
             <div class="member">
-              <img src="/img/team/team-4.jpg" class="img-fluid" alt="">
+              <img src="/img/team/team-2.png" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>Amanda Jepson</h4>
@@ -543,7 +546,7 @@
                 <i class="bx bx-envelope"></i>
                 <div class="hvr-grow">
                   <h4>Email Us</h4>
-                  <p>contact@handshake.com<br>info@handshake.com</p>
+                  <p>contact@bridge.com<br>info@bridge.com</p>
                 </div>
                 
               </div>
@@ -608,12 +611,12 @@
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-info">
-            <h3>handShake</h3>
+            <h3>Bridge</h3>
             <p>
               Delhi Technological University <br>
               New Delhi, India<br><br>
               <strong>Phone:</strong> +91 9876543210<br>
-              <strong>Email:</strong> info@handshake.com<br>
+              <strong>Email:</strong> info@bridge.com<br>
             </p>
             <div class="social-links mt-3">
               <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -649,7 +652,7 @@
 
           <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Our Newsletter</h4>
-            <p>Subscribe to our newsletter to get all the updates regarding the investors, startups and webinars by handShake.</p>
+            <p>Subscribe to our newsletter to get all the updates regarding the investors, startups and webinars by Bridge.</p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
@@ -662,7 +665,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy;<strong><span> handShake</span></strong>. Innovathon 2021.
+        &copy;<strong><span> Bridge</span></strong>. T_Hacks 4.0 .
       </div>
       <div class="credits">
         
