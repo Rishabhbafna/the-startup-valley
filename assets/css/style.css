@@ -1368,3 +1368,32 @@ section {
   transform: scale(1.1); 
 }
 
+
+
+style.cssCSS
+/* Code By Webdevtrick ( https://webdevtrick.com ) */
+.container-fluid {
+    margin-top: 10%;
+}
+#pieChart {
+    height: 360px;
+    width: 100%;
+}
+#columnChart {
+    height: 360px;
+    width: 100%;
+}
+
+/* analysis */
+
+.container-fluid {
+    margin-top: 10%;
+}
+#pieChart {
+    height: 360px;
+    width: 100%;
+}
+#columnChart {
+    height: 360px;
+    width: 100%;
+}

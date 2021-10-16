@@ -36,13 +36,13 @@ a.button4{
     font-family:'Open Sans',sans-serif;
     font-weight:300;
     color:#FFFFFF;
-    background-color:#FFA952;
+    background-color:#D291BC;
     text-align:center;
     transition: all 0.2s;
     }
     
     a.button4:hover{
-    background-color:#EF5A5A;
+    background-color:#957DAD;
     }
     
     @media all and (max-width:30em){
