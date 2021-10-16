@@ -8,13 +8,13 @@ text-decoration:none;
 font-family:'Open Sans',sans-serif;
 font-weight:300;
 color:#FFFFFF;
-background-color:#FFA952;
+background-color:#957DAD;
 text-align:center;
 transition: all 0.2s;
 }
 
 a.button3:hover{
-background-color:#EF5A5A;
+background-color:#D291BC;
 }
 
 @media all and (max-width:30em){
