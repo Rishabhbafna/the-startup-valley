@@ -5,7 +5,7 @@ const port = 6500;
 const app=express();
 dotenv.config();
 
-let order_id_variable
+
 // form data parsing
 app.use(express.urlencoded({extended:false}));
 
