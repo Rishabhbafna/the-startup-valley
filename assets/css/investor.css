@@ -4,7 +4,12 @@
 
 .card2 {
     border-radius: 1rem;
-    box-shadow: 0px -10px 0px #FFA952;
+    box-shadow: 0px -10px 0px #D291BC;
+}
+
+.card3 {
+    border-radius: 1rem;
+    box-shadow: 0px 10px #D291BC;
 }
 
 @media(max-width:767px) {
@@ -57,12 +62,12 @@
 }
 
 a {
-    color: #FFA952;
+    color: #957DAD;
     /* font-weight: bold */
 }
 
 a:hover {
-    color: #FFA952;
+    /* color: #D291BC; */
 }
 
 .h22 {
@@ -72,5 +77,5 @@ a:hover {
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #4b605c;
+  color: #957DAD;
 }
