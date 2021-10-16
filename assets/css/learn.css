@@ -35,7 +35,7 @@
     margin: auto;
     position: relative;
     margin-bottom: 30px;
-    background:#FF5757;
+    background:#D291BC;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -74,3 +74,9 @@
   .learnicon{
     height: auto;
   }
+
+  .ict{
+    color: #fff;
+    height: 60px;
+    width: auto;
+}
