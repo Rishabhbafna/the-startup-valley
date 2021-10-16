@@ -1,12 +1,13 @@
 
 window.addEventListener('scroll',checkScroll);
 
-
+var executed = false;
 function checkScroll() {
   var chart = document.getElementById('about');
   var coordinates = chart.getBoundingClientRect();
   var target = coordinates.top;
-  if (window.scrollY >= target) {
+  if (window.scrollY >= target && executed ==false) {
+    executed=true;
     var pieChartValues = [{
       y: 39.16,
       exploded: true,
