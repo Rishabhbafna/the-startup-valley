@@ -51,7 +51,6 @@ A list of technologies used within the project:
 * Mongoose
 * PassportJS
 * RazorPay API 
-* Heroku
 
 ## Installation
 ***
