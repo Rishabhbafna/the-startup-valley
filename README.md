@@ -1,4 +1,4 @@
-# Bridge - THACKS Project (Team RgR)
+# Bridge - T_HACKS 4.0 Project (Team RgR)
 
 ### ..conneting ideas to investments..
 
@@ -14,6 +14,9 @@ Bridge for Startups is a platform to support thriving, diverse, and inclusive st
 ![Screenshot](./Screenshots/home.png)
 ![Screenshot](./Screenshots/home2.png)
 
+## Video Demo
+https://youtu.be/GmBa1pnKgDA
+
 
 ## Features
 ***
@@ -24,6 +27,7 @@ Bridge for Startups is a platform to support thriving, diverse, and inclusive st
 * A unique concept to list budding startups from schools and colleges.
 * A special section for inspiring stories of startups growing from scratch.
 * A learn section for amateurs as well as experts to learn and share knowledge.
+* A platform to promote entrepenuership culture among school and college going students.
 
  
  
