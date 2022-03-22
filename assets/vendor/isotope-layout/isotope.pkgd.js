@@ -2209,7 +2209,7 @@ Outlayer.create = function( namespace, options ) {
 
   utils.htmlInit( Layout, namespace );
 
-  // -------------------------- jQuery bridge -------------------------- //
+  // -------------------------- jQuery The Startup Valley -------------------------- //
 
   // make into jQuery plugin
   if ( jQuery && jQuery.bridget ) {
